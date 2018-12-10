@@ -1,4 +1,4 @@
-This repo is corresponding to the `Introduction to Go` slides
+This repo is corresponding to the `Introduction to Go` [slides](https://docs.google.com/presentation/d/1QzssE9pLuNf9YC8ASu7rwwmDsp2zHypni6az6m2uJ4M/edit?usp=sharing)
 
 To run code in this repo locally, first install go from https://golang.org/doc/install on your machine and set up necessary env vars, then clone this repo to your machine.
 
