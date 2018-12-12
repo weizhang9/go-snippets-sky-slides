@@ -1,4 +1,5 @@
 // A concurrent prime sieve
+// this is actually an example from Rob Pike
 package main
 
 import "fmt"
