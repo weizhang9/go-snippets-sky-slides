@@ -19,19 +19,19 @@ func main() {
 	fmt.Printf("\nSlicing from here:\n")
 	sliceAllItems := alphabet[:]
 	sliceFromCertainItem := alphabet[2:]
-	sliceUpToCertainItem := alphabet[:4]	// [starting-item:ending-item) - ending item is not included
+	sliceUpToCertainItem := alphabet[:4] // [starting-item:ending-item) - ending item is not included
 	sliceFromCertainItemUpToCetainItem := alphabet[3:5]
 	fmt.Println(sliceAllItems)
 	fmt.Println(sliceFromCertainItem)
 	fmt.Println(sliceUpToCertainItem)
 	fmt.Println(sliceFromCertainItemUpToCetainItem)
-	
+
 	// use append() to resize slices, can append multiple SAME TYPE values
 	alphabet = append(alphabet, "one-more-drink", "sorry-two-more-drinks")
 	// BUT if you have to append a slice, use ... to decomposite it
 	alphabet = append(alphabet, []string{"now-pub-crawl", "bye"}...)
 	fmt.Println("Slice alphabet is now", alphabet, "has length of", len(alphabet), "with capacity of", cap(alphabet))
-	
+
 	// the moment you sliced an array, values of the array will be changed accordingly when you mutate the values of the slice
 	fmt.Printf("\nSlicing an array could have unexpected result:\n")
 	array := [5]int{6, 7, 8, 9, 10}

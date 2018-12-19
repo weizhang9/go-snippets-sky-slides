@@ -18,11 +18,11 @@ type Point struct {
 }
 
 // define a method on pointer receiver of type Pointer who is an embedded type in NamedPoint below
-func (p *Point) getHypotenuse() float64 {	
-	return math.Sqrt(p.x * p.x + p.y * p.y)
+func (p *Point) getHypotenuse() float64 {
+	return math.Sqrt(p.x*p.x + p.y*p.y)
 }
 
-type NamedPoint struct {	// the embedding type in this example
+type NamedPoint struct { // the embedding type in this example
 	Point
 	name string
 }

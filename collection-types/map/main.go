@@ -37,11 +37,11 @@ func main() {
 	// delete an element from a map
 	delete(timeZone, "UTC")
 	fmt.Printf("%v\n\n", timeZone)
-	
+
 	// query an element's key after deletion of the element is useless
 	fmt.Println(timeZone["UTC"])
 	fmt.Println(timeZone["WTF"])
-	
+
 	// use built-in comma ok syntax to check if an element exists
 	_, ok := timeZone["UTC"] // could throw away the element value with blank identifier
 	fmt.Println(ok)

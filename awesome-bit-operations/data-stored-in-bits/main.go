@@ -17,7 +17,7 @@ const (
 )
 
 func main() {
-					 // 0000 0001 |    0000 0100      |    0000 1000     |  0001 0000  = 0001 1101
+	// 0000 0001 |    0000 0100      |    0000 1000     |  0001 0000  = 0001 1101
 	var Tottenham byte = isUKTeam | isInPremierLeague | isPlayingTonight | isLiveOnSky
 	// now we have stored all these data of a team in a single byte (8 bits)
 	fmt.Printf("%b\n", Tottenham)

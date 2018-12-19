@@ -10,7 +10,7 @@ func main() {
 		"Sky Fibre Unlimited": 25,
 		"Sky Mobile":          32,
 	}
-	
+
 	// if initialisation; condition in one line
 	if p, ok := skyProducts["Sky Fibre Unlimited"]; ok {
 		fmt.Printf("Sky Fibre Unlimited is £%v per month for 18 months", p)

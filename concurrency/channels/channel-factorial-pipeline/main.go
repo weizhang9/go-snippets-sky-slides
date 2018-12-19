@@ -1,6 +1,6 @@
-// sorry for not adding notes on concurrency code snippets; 
-// this is a more advanced concept that would require researching and learning to obsorb, 
-// trying to wrote notes on it would end up into an essay, 
+// sorry for not adding notes on concurrency code snippets;
+// this is a more advanced concept that would require researching and learning to obsorb,
+// trying to wrote notes on it would end up into an essay,
 // please feel free to chat with me if you have any questions about my code
 package main
 

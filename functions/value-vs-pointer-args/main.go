@@ -32,7 +32,7 @@ func getSkyID(name string, employees map[string]int) (int, error) {
 	}
 
 	// uncomment line below, name will not changed to "wei wei" unless we change name into type *string
-	// name = "wei wei"  
+	// name = "wei wei"
 
 	// uncomment line below, id will be changed to 999999 as map is reference type (internal pointer)
 	// id = 999999
